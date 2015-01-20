@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference 
+        android:title="Adınızı Girin : "
+        android:summary="İsminiz"
+        android:key="etpAd"
+        />
+    <CheckBoxPreference 
+        android:title="Müzik Ayarı"
+        android:summary="Müzik Aç/Kapat"
+        android:defaultValue="true"
+   		android:key="cbpMuzik"
+        />
+    <ListPreference 
+        android:title="Örnek Liste"
+        android:summary="Liste örneği"
+        android:entries="@array/list"
+        android:entryValues="@array/listValues"
+        android:key="lpListe"
+        />
+
+</PreferenceScreen>

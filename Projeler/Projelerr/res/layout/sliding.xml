@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bAc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slider Aç" />
+
+    <Button
+        android:id="@+id/bKapat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slider Kapat" />
+
+    <Button
+        android:id="@+id/bDegistir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slider Durumunu Değiştir" />
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/sdSlider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handle" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/cbKilitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CheckBox" />
+
+        </LinearLayout>
+    </SlidingDrawer>
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/vfFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Karma"
+                android:text="bu birinci sayfa bu birinci sayfa bu birinci sayfa bu birinci sayfa bu birinci sayfa bu birinci sayfa " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bu ikinci sayfa bu ikinci sayfa bu ikinci sayfa bu ikinci sayfa bu ikinci sayfa bu ikinci sayfa " />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Karma2"
+                android:text="bu üçüncü sayfa bu üçüncü sayfa bu üçüncü sayfa bu üçüncü sayfa bu üçüncü sayfa bu üçüncü sayfa " />
+        </ViewFlipper>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bGeriGit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geri" />
+
+        <Button
+            android:id="@+id/bIleriGit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İleri" />
+
+        <Button
+            android:id="@+id/bOtomatik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otomatik" />
+    </LinearLayout>
+
+</LinearLayout>

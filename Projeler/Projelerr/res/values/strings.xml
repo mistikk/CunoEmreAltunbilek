@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Projeler</string>
+    <string name="action_settings">Settings</string>
+    <color name="Beyaz">#FFFFFF</color><color name="Karma2">#884534</color><color name="Siyah">#000000</color><string name="hello_world">Hello world!</string>
+    <color name="Karma">#197534</color>
+    
+    
+    
+
+</resources>

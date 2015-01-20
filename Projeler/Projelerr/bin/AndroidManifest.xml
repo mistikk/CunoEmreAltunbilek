@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cuneytyilmaz.projeler"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cuneytyilmaz.projeler.HosgeldinEkrani"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Liste"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LISTE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.ResimCek"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Hakkimda"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.HAKKIMDA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Ayarlar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AYARLAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Slider"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Tablar"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Browser"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.Flipper"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.SharedPrefs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.InternalData"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cuneytyilmaz.projeler.ExternalData"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
